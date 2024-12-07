@@ -1,0 +1,414 @@
+
+
+
+nav ul {
+    display: flex;
+}
+
+.navbar nav {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    font: 500 18px arial;
+    color: #002347;
+
+}
+
+
+.bgphoto {
+    background: url(/home-banner.jpg.webp) center/cover;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 55vh;
+}
+
+.content h1 {
+    font: bold 60px arial;
+    margin: 20px 0 60px 0;
+    text-transform: uppercase;
+    color: #002347;
+}
+
+#a1 {
+    background-color: #002347;
+    color: orange;
+    font: 500 16px arial;
+    padding: 18px 48px;
+    margin: 40px;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+#a2 {
+    background-color: orange;
+    font: 500 16px arial;
+    color: #002347;
+    padding: 18px 48px;
+    margin: 40px;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+
+#a1:hover {
+    background: transparent;
+    border: lpx solid solid #002347;
+    color: orange;
+}
+
+#a2:hover {
+    background: transparent;
+    border: lpx solid solid orange;
+    color: #002347;
+}
+
+
+nav a:hover,
+.fa-solid:hover {
+    color: orange;
+}
+
+nav a,
+.fa-solid {
+    transition: .4s;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 50px;
+}
+
+
+
+
+.top {
+    text-align: center;
+}
+
+.ph {
+    margin-top: 15px;
+}
+
+
+
+
+
+h2 {
+    font: bold 36px arial;
+    color: #002347;
+    text-align: center;
+}
+
+p {
+    font: 16px arial;
+    color: #7B838A
+}
+
+.ph p {
+    font: italic 16px arial;
+    color: #7B838A
+}
+
+
+.section2cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.section2cards div {
+    background-color: #F9F9FF;
+    padding: 40px 36px;
+
+}
+
+#icon {
+    font-size: 48px;
+}
+
+
+.section2cards h3 {
+    font: 600 20px arial;
+    color: #002347;
+    line-height: 100px;
+}
+
+.sectioncards div {
+    background-color: #F9F9FF;
+}
+
+.section3cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#div2 {
+    background-color: #F9F9FF;
+    line-height: 50px;
+}
+
+#p2 {
+    display: inline;
+    background-color: #002347;
+    color: white;
+    padding: 10px;
+}
+
+#importantdiv {
+    margin-left: 30px
+}
+
+.section3cards a {
+    font: 500 20px arial;
+    color: #002347;
+}
+
+.topic a{
+    font: bold 20px arial;
+}
+
+#div3 div {
+    display: flex;
+
+}
+
+#div3 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+#div4 {
+    margin-right: 30px;
+    gap: 15px;
+    align-items: center;
+}
+
+#user {
+    width: 50px;
+    height: 50px;
+}
+
+.section4 {
+    margin-top: 200px;
+    background-color: #002347;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 53.4vh;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+
+#form h3 {
+    margin-top: 20px;
+    font: bold 24px arial;
+    color: #002347;
+}
+
+#a3 {
+    margin-bottom: 15px;
+    background-color: orange;
+    padding: 10px 64px;
+}
+
+#a3 a {
+    font: 500 13px arial;
+    color: black
+}
+
+.section4 input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    outline: none;
+}
+
+
+.section2content {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.all h3 {
+    font: bold 42px arial;
+    color: white;
+}
+
+#minutes {
+    display: flex;
+    font:bold 36px arial;
+    gap: 10px;
+    color: white;
+
+}
+
+#minutes div{
+    background-color: #334F6C;
+    width: 80px;
+    padding: 35px 20px;
+    border: 0px;
+
+}
+
+.index {
+    font-size: 0.8em;
+    font:500 16px arial;
+    vertical-align: sub;
+}
+
+.section4content p{
+    margin: 30px 0px 30px 0px;
+}
+
+.section5content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5content h5{
+    font: bold 20px arial;
+    color: #002347;
+    margin-top: 25px;
+}
+
+.section5content h6{
+    font: 500 14px arial;
+    color: #7B838A;
+    margin-bottom: 30px;
+}
+
+.section5content p{
+    margin-bottom: 16px;
+    text-align: center;
+    line-height: 25px;
+    width: 210px;
+}
+
+.section5logos a{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section5cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    gap: 20px;
+
+}
+
+.section6cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 30px;
+}
+
+.section6cards .card{
+    display: flex;
+    padding: 50px 55px;
+    
+}
+
+.section6content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.section6cards .card h5{
+    font: bold 20px arial;
+    color: #002347;
+}
+
+.section6cards .card p{
+    width: 260px;
+    line-height: 23px;
+}
+
+.footercontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 70px;
+}
+
+.footercontent h6{
+    font: bold 20px arial;
+    color: #fff;
+    margin-bottom:35px ;
+}
+
+.footercontent p{
+    line-height: 35px;
+}
+
+
+
+.footercontent input{
+    padding: 10px 10px 10px 20px;
+    background-color: #334F6C;
+    border: 0px;
+    outline: none;
+}
+
+.footercontent button {
+    color: #002347;
+    background-color: #FDC632;
+    padding: 8px 12px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 21vh;
+}
